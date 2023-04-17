@@ -860,6 +860,7 @@ Height:
 }
 
 .btn.btn-flora1 {
+	transition: all ease 2s;
 	display: inline-block; /* Встановлення властивості display на inline-block для вирівнювання кнопки поруч з іншими елементами */
 	padding: 0.5rem 1rem; /* Внутрішній відступ */
 	font-size: 18px; /* Розмір шрифту */
@@ -869,7 +870,7 @@ Height:
 	cursor: pointer; /* Зміна курсору при наведенні */
 	width: 100%;
 }
-
+ 
 .btn.btn-flora1:hover {
 	background-color: #218838; /* Колір фону при наведенні */
 }
@@ -877,3 +878,19 @@ Height:
 .contacts-image {
 	/* Ваші стилі для .contacts-image тут */
 }
+.btn.btn-flora1:hover {
+    background-color: #c979f5; /* Зміна кольору при наведенні */
+color: #000;
+transform:scale(1.2) ;
+transition: all ease 2s;
+}
+
+.container {
+	text-align: center; /* Вирівнюємо вміст в центрі горизонталі */
+  }
+  
+  .text {
+	font-size: 24px;
+	font-weight: bold;
+	color: black;
+  }
